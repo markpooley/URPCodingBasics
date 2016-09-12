@@ -1,0 +1,3 @@
+# URPCodingBasics
+
+IF you're in the URP Coding basics course you can upload lab problems we've worked on to share solutions and discuss. Please you the naming convention "LastName_Week#" So for the first week you'd use "Wahlberg_1"...
