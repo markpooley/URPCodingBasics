@@ -4,12 +4,37 @@ print type(1.0)
 print type('this is some text')
 print type([1,2,3,5])
 
+"""
 #accessing a list
 ls = [1,2,3,4]
 print ls[0] #access first element of list
 print ls[:2] #access first two elements, that is "up to" but not including the third element
 print ls[2:3] #starting at third element, access up to the fourth
 print ls[2:] #access everything beyond the third element
+
+#List operations
+ls.append(6) #append element to end of list
+print ls
+ls.pop(2) #remove 3rd element of list
+print ls
+ls.insert(2,7) #insert 7 ad the third index
+print ls
+ls.sort() #sort list ascending
+print ls
+ls = ls[:4] #create new list as subset of original
+print ls
+l = len(ls) #get list length
+print 'Length of list "ls" is: {0}'.format(l)
+
+#you can access indices of strings to!
+s = 'This is a string'
+print s[0]
+print s[:6] #access everything up to before the 7th character
+print s[4:] #access everything beyond 5th character
+print s[-1] #access last element
+
+
+
 
 #maths
 print 2 / 3 # two divided by three
@@ -78,3 +103,11 @@ def elifer(number):
 print elifer(0)
 print elifer(43)
 print elifer(78646)
+
+#import a standard library included with Python
+import random
+#create random number between 0 and 10. 
+#random access the library the "." access the class/module within that library
+r = random.randint(0,10) 
+print r
+"""
